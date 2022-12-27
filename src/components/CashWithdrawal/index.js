@@ -12,19 +12,19 @@ const CashWithdrawal = props => {
           <h1 className="heading-sarah">sarah Williams</h1>
         </div>
         <div className="second-div">
-          <h1 className="your-balance">Your Balance</h1>
+          <p className="your-balance">Your Balance</p>
           <div>
-            <h1 className="amount">2000</h1>
+            <p className="amount">2000</p>
             <p className="para-amount">In Rupees</p>
           </div>
         </div>
-        <h1 className="withdraw">Withdraw</h1>
+        <p className="withdraw">Withdraw</p>
         <p className="choose">CHOOSE SUM (IN RUPEES)</p>
-        <div>
+        <ul className="flex-wrap">
           {denominationsList.map(eachItem => (
             <DenominationItem eachItem={eachItem} key={eachItem.id} />
           ))}
-        </div>
+        </ul>
       </div>
     </div>
   )

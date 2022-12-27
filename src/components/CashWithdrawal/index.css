@@ -16,7 +16,7 @@ body {
 .main-sub-div {
   background-color: #150b3e;
   padding: 50px;
-  width: 40%;
+  width: 30%;
   border-radius: 20px;
 }
 .s-element {
@@ -68,4 +68,8 @@ body {
 .choose {
   color: #585076;
   font-weight: 700;
+}
+.flex-wrap {
+  display: flex;
+  flex-wrap: wrap;
 }

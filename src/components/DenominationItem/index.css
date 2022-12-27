@@ -1,7 +1,11 @@
 /* Write your CSS here */
 .button {
   background-color: #585076;
-  height: 35px;
-  width: 120px;
+  height: 40px;
+  width: 130px;
   color: #ffffff;
+  margin: 10px;
+  border-radius: 10px;
+  border-color: #c7d2fe;
+  cursor: pointer;
 }

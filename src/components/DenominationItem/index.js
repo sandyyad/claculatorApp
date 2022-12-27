@@ -6,11 +6,11 @@ const DenominationItem = props => {
   const {value} = eachItem
 
   return (
-    <div>
-      <button className="button" type="button">
+    <li>
+      <button type="button" className="button">
         {value}
       </button>
-    </div>
+    </li>
   )
 }
 
