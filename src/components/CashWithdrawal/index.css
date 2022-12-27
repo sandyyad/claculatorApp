@@ -1,0 +1,71 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+}
+.main-div {
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.main-sub-div {
+  background-color: #150b3e;
+  padding: 50px;
+  width: 40%;
+  border-radius: 20px;
+}
+.s-element {
+  background-color: #c7d2fe;
+  color: #7c3aed;
+  height: 70px;
+  width: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+  font-size: 24px;
+  margin-right: 10px;
+}
+.heading-sarah {
+  color: #c7d2fe;
+  font-size: 24px;
+  margin-left: 10px;
+}
+.first-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0px;
+}
+.second-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px;
+}
+.your-balance {
+  color: #585076;
+  font-size: 30px;
+}
+.amount {
+  color: #c7d2fe;
+}
+.para-amount {
+  color: #585076;
+  font-weight: 700;
+}
+.withdraw {
+  color: #c7d2fe;
+  font-weight: 500;
+}
+.choose {
+  color: #585076;
+  font-weight: 700;
+}
